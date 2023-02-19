@@ -1,6 +1,4 @@
 
-  // const boxesParent = document.querySelector("#boxes");
-
   const controls = document.querySelector("#controls");
   const boxes = document.querySelector("#boxes");
   const button = document.querySelectorAll("button[type='button']");

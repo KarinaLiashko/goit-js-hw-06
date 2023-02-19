@@ -14,7 +14,6 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery');
-// galleryList.classList.add('gallery__list');
 
 
 const makeImagesLiast = ({ url, alt }) => {
@@ -25,7 +24,5 @@ const makeImagesLiast = ({ url, alt }) => {
 
 const imagesList = images.map(makeImagesLiast).join("");
 
-// for (let element of elements) {
-//   console.log(element);
   galleryList.insertAdjacentHTML("afterbegin", imagesList);
-// }
+
