@@ -10,4 +10,4 @@ function onInputBlur(e) {
    input.classList.remove('valid');
    return input.classList.add('invalid');
   }
-input.addEventListener('blur', onInputBlur);
+input.addEventListener('blur', onInputBlur);  
