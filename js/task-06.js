@@ -1,9 +1,10 @@
 const input = document.querySelector('#validation-input');
+const inputLength = document.getAttribute(input[dataset - length]);
 
 function onInputBlur(e) {
   const contentOfInput = e.currentTarget.value.trim();
   input.dataset.length = contentOfInput.length;
-  if ('input[dataset-length="6"]') {
+  if (inputLength) {
     input.classList.remove('invalid');
     return input.classList.add('valid');
   }
