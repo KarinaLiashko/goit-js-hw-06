@@ -14,6 +14,10 @@ buttonEl.addEventListener("click", () => {
 
 
 
+
+
+
+
 // bodyChangedColor.textContent = getRandomHexColor();
 //   body.style.backgroundColor = bodyChangedColor.textContent;
 
